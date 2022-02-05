@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/textView" android:textSize="36sp"
+            android:text="@string/_1to6"/>
+    <Button
+            android:text="@string/roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView2"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:textSize="36sp" android:text="@string/_1to20"/>
+    <TextView
+            android:text="@string/you_are_rolling_2_dices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView3"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:textSize="20sp" android:textColor="@android:color/holo_blue_light"/>
+    <Button
+            android:text="@string/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button2"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+    <Button
+            android:text="@string/second_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button3"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll">Roll</string>
+    <string name="textview">TextView</string>
+    <string name="you_are_rolling_2_dices">You are rolling 2 dices</string>
+    <string name="reset">Reset</string>
+    <string name="_1to20">1to20</string>
+    <string name="_1to6">1to6</string>
+    <string name="second_screen">2nd screen</string>
+    <string name="under_dev">under development</string>
+</resources>
